@@ -42,7 +42,7 @@ angular.module('djds4rce.angular-socialshare', [])
 			}
 		};
 
-	}]).directive('facebook', ['$http', function($http) {
+	}]).directive('fbShare', ['$http', function($http) {
 		return {
 			scope: {
 				shares: '='
